@@ -1,0 +1,27 @@
+.searchForm {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0.25rem 0 0;
+    padding: 0 0.5rem 0.25rem;
+  }
+  
+  .searchForm label {
+    position: absolute;
+    left: -99999px;
+  }
+  
+  .searchForm input[type='text'] {
+    flex-grow: 1;
+    max-width: 15rem;
+    min-height: 48px;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    border-width: thin;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    outline: none;
+  }
